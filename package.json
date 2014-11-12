@@ -1,0 +1,33 @@
+{
+  "name": "clear-broccoli-build-target",
+  "description": "Automatically remove the target of a broccoli build",
+  "version": "1.0.0",
+  "author": "Jordan Cole <stilist@ratafia.info> (https://ratafia.info)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stilist/clear-broccoli-build-target"
+  },
+  "main": "lib/clear-build-target.js",
+  "bugs": "https://github.com/stilist/clear-broccoli-build-target/issues",
+  "homepage": "https://github.com/stilist/clear-broccoli-build-target",
+  "keywords": [
+    "broccoli",
+    "build",
+    "target"
+  ],
+  "dependencies": {
+    "fs-extra": "~0.12.0"
+  },
+  "devDependencies": {
+    "broccoli": "~0.13.0",
+    "broccoli-merge-trees": "~0.2.0",
+    "jshint": "~2.5.0"
+  },
+  "engines": {
+    "node": "~0.10.0"
+  },
+  "scripts": {
+    "pretest": "jshint lib"
+  }
+}
