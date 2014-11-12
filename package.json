@@ -28,6 +28,7 @@
     "node": "~0.10.0"
   },
   "scripts": {
-    "pretest": "jshint lib"
+    "pretest": "jshint lib",
+    "test": "broccoli build tmp_test && test -d tmp_test && broccoli build tmp_test"
   }
 }
