@@ -1,7 +1,7 @@
 {
   "name": "clear-broccoli-build-target",
   "description": "Automatically remove the target of a broccoli build",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jordan Cole <stilist@ratafia.info> (https://ratafia.info)",
   "license": "MIT",
   "repository": {
