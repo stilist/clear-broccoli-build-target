@@ -5,3 +5,13 @@ that minor annoyance by automatically removing the target.
 More specifically, the argument immediately following `build` is assumed to be
 the target, and will be `rm -rf`’d — so don’t do something foolhardy like
 `broccoli build ~`.
+
+### Usage
+
+In your `Brocfile.js` (or wherever):
+
+	var clearBuildTarget = require('clear-broccoli-build-target')
+
+	[…]
+
+	clearBuildTarget()
